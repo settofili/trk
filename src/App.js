@@ -87,19 +87,18 @@ function App() {
     </div>
       <div className="app__stats">
 
+            {/* InfoBoxs title="Coronavirus cases" */}
       <InfoBox title="Coronavirus Cases" cases={countryInfo.todayCases} total={countryInfo.cases} />
 
       <InfoBox title="Recovered" cases={countryInfo.todayRecovered} total={countryInfo.recovered} />
 
       <InfoBox title="Deaths" cases={countryInfo.todayDeaths} total={countryInfo.deaths}/>
-      {/* InfoBoxs title="Coronavirus cases" */}
-      {/* InfoBoxs title="Coronavirus  recovert" */}
-      {/* InfoBoxs title="Coronavirus cases"*/}
+
+
 
       </div>
 
 
-      {/* Map */}
     </div>
 
     <Card className="app__right">
